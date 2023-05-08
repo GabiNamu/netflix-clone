@@ -1,0 +1,138 @@
+.login {
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+.login-div-logo {
+    /* border: 1px solid red; */
+    width: 100vw;
+    height: 100px;
+}
+
+.login-logo {
+    margin-top: 2rem;
+    margin-left: 2rem;
+    left: -200px;
+    height: 45px;
+    width: 167px;
+}
+
+.login-background {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+.login--form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    max-width: 420px;
+    margin: auto;
+    /* justify-content: center; */
+    align-content: flex-start;
+    align-items: center;
+    text-align: start;
+    /* align-items: center; */
+    margin: 1px solid red;
+    background-color: rgba(0, 0, 0, 0.685);
+    height: 600px;
+    gap: 0.6rem;
+}
+
+.login--title {
+    text-align: start;
+    margin-top: 4rem;
+    margin-bottom: 1.5rem;
+    font-size: 2.2rem;
+    font-weight: 500;
+    margin-left: -180px;
+}
+
+.login--input, 
+.login--button {
+    width: 70%;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.login--button {
+  color: white;
+  background-color: red;
+  border: 0;
+  text-decoration: none;
+  text-align: center;
+  /* padding: 1rem; */
+  font-size: 1.1rem;
+  margin: 0.5rem;
+  cursor: pointer;
+}
+
+.login-checkbox-remenber {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.login-error {
+    color: #e87c03;
+    font-size: 12px;
+    text-align: start;
+    margin-left: -22px;
+}
+.password {
+    margin-left: -58px;
+}
+.login-checkbox-title,
+.login-help {
+    color: #b3b3b3;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.login-checkbox-title {
+    display: flex;
+    align-items: center;
+}
+.login-help{
+    text-decoration: none;
+}
+.login-help:hover {
+    text-decoration: underline;
+}
+.login-checkbox {
+    background: #b3b3b3;
+    color: #333;
+    border: 2px solid #333;
+    margin-right: 5px;
+}
+
+.login-error-input {
+    background-color: #333;
+    color: white;
+    border-bottom: 1px solid #e87c03;
+    border-right: 0;
+}
+.login-sign {
+    display: flex;
+    justify-content: space-between;
+    color: #737373;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 3rem;
+}
+.login-sign-link {
+    color: white;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+.login-sign-link:hover {
+    text-decoration: underline;
+}
